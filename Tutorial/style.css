@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #c40d1e;
+}
+body a {
+    text-decoration: none;
+    color: #fff;
+}
+.top-bar {
+    height: 10px;
+    width: 100%;
+    background: #4b4b4d;
+}
+.main {
+    width: 980px;
+    min-height; 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    width: 960px;
+    float: left;
+    height: 106px;
+    text-align: center;
+    padding: 20px;
+    background: #4b4b4d;
+        box-shadow: 0px -3px 30px black;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 80px;
+    line-height: 2.0em;
+    font-style: oblique;
+}
+.main_content {
+    float: left;
+    width: 1000px;
+    min-height: 100%;
+    margin-top: 20px;
+        box-shadow: 0px -3px 30px black;
+}
+.left {
+    float: left;
+    padding: 10px;
+    width: 698px;
+    min-height: 100%;
+    border-right: 2px solid white;
+    background: #4b4b4d;
+
+}
+.right {
+    float: left;
+    padding: 10px;
+    width: 260px;
+    min-height: 100%;
+    background: #4b4b4d;
+
+}
+h1.page_title {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+a.all_tutorial_link {
+    width: 454px;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-left: 131px;
+}
+
+a.all_tutorial_link:hover {
+    background: white;
+    color: black;
+}
+
+a.sidebar_link {
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    margin-left: 52px;
+    margin-top: 15px;
+    width: 175px;
+}
+
+a.sidebar_link:hover {
+    background: white;
+    color: black;
+}
+
+.search p {
+    line-height: 2.0em;
+    color: white;
+    text-align: center;
+}
+
+.search input[type="text"] {
+    width: 190px;
+    height: 29px;
+    margin-left: 27px;
+}
+
+.search input[type="submit"] {
+    margin-top: 10px;
+    width: 187px;
+    height: 37px;
+    margin-left: 19px;
+}
+h6.page_title {
+    font-size: 20px;
+    color: black;
+    PADDING: 13px;
+    text-align: center;
+    background: white;
+    /* padding-top: 0px; */
+}
+p.content {
+    color: black;
+    background: white;
+    padding: 15px;
+}
+
+h2.like {
+    padding: 15px;
+    text-align: center;
+    background: white;
+}
+
+.like a {
+    color: blue;
+}
+
+h6.msg {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background: green;
+    font-size: 22px;
+}
+
+form.comment {
+    color: white;
+    text-align: center;
+}
+
+.comment textarea {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -400px;
+    width: 698px;
+    height: 96px;
+}
+
+.comment input[type="submit"] {
+    margin-top: 87px;
+    background: white;
+    font-size: 24px;
+}
+p.page_title {
+    padding: 15px;
+    color: blue;
+    background: white;
+    text-align: center;
+    font-size: 20px;
+}
